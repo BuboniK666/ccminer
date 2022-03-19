@@ -1,10 +1,12 @@
-extern "C" {
+
+	extern "C" {
 #include "sph/sph_blake.h"
-#include "sph/sph_groestl.h"
-#include "sph/sph_skein.h"
-#include "sph/sph_keccak.h"
-#include "sph/sph_cubehash.h"
+#include "sph/sph_keccak.h"                               
 #include "lyra2/Lyra2.h"
+#include "sph/sph_cubehash.h"
+#include "lyra2/Lyra2.h"                             
+#include "sph/sph_skein.h"
+#include "sph/sph_groestl.h"
 }
 
 #include <miner.h>
